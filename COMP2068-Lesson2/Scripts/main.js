@@ -2,6 +2,8 @@
 
 if (jQuery) {
     $("#header-id").show();
+
+    var paraString = $("#header-id p").text();
+    console.debug(paraString);
 }
 
-console.log("Hello World!");
